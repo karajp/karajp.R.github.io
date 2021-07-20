@@ -1,0 +1,138 @@
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-size-adjust: 16px;
+}
+
+.Art {
+	padding:15px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	max-width: 900px;
+	object-fit: cover;
+	width:100%;
+}
+
+img,
+iframe {
+max-width: 100%;
+height: auto;
+border: 0;
+}
+
+nav a{
+	font-size: 20px;
+}
+
+.col{
+	float: left;
+	width: 33.3%;
+	padding: 15px;
+	padding-bottom: 6px;
+	position: relative;
+}
+
+
+.parallax {
+	background: url("Pound_Randal_ Remarkable Rocks - Adolescent Memories of Kangaroo Island.jpg")no-repeat center;
+	background-size: 1600px;
+	background-attachment:fixed;
+	height: 200px;
+	margin-bottom: 25px;
+}
+
+.RP{
+	height: 270px;
+	padding-left: 40px;
+	}
+.item {
+	padding: 1%;
+	margin: 1%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+.container{
+	max-width: 100%;
+	margin: auto;
+	background-color:whitesmoke;
+	font-size: 20px;
+	padding: 15px;
+	word-wrap: break-word;
+
+}
+
+h1 {
+	padding-bottom: 8px;
+	font-size: 50px;
+	color: white;
+	background-color: grey;
+	font-family: ''Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif''
+}
+
+h4 {
+	text-align: center;
+	padding: 8px;
+}
+
+header{
+	padding-top: 10px;
+	text-align: center;
+	background-color: grey;
+}
+
+nav a {	
+  background-color: white;
+	color:#C6590C;
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 2px;
+  font-size: 16px;
+}
+
+nav li {
+	display: inline-block;
+	padding-bottom: 20px;
+	font-size: 12px;
+}
+
+p {
+	text-align: justify;
+    color: black;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+
+.footer {
+	position:relative;
+	bottom:0;
+
+	
+}
+.footcol {
+		color: black;
+		text-align: center
+
+}
+li{
+	color: black;
+}
+
+/*Media Query - Responsive*/
+@media screen and (min-width:500px) {
+	body {
+		background-color:whitesmoke;
+		font-family: arial;
+		word-spacing: .5 px; 
+	}
+	.item {
+		background-color: rgba(246,246,246,0.90);
+	}
+	h2{
+		font-family: 'arial', regular;
+	}
+	}
